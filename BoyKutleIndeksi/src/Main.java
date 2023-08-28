@@ -29,16 +29,16 @@ public class Main {
 		System.out.println("--------------------------------");
 		System.out.println("---Boy Kilo Indeksi Hesaplama---");
 		System.out.println("--------------------------------");
-		System.out.print("Ad ve soyadınızı giriniz:");
+		System.out.print("Adınızı ve soyadınızı giriniz:");
 		String adVeSoyad=scanner.nextLine();
 		
 		System.out.println("--------------------------------");
-		System.out.print("Lütfen kilonuzu giriniz(KG):");
+		System.out.print("Lütfen Kilonuzu Giriniz(KG):");
 		double kilo=scanner.nextDouble();
 		scanner.nextLine();
 		
 		System.out.println("----------------------------------");
-		System.out.print("Lütfen Boyunuzu giriniz(M):");
+		System.out.print("Lütfen Boyunuzu Giriniz(M):");
 		double boy=scanner.nextDouble();
 		scanner.nextLine();
 		
@@ -53,11 +53,11 @@ public class Main {
 			System.out.println("Boy kütle indeksi:"+bke);
 		}
 		else if(bke>25.0 && bke<30.0) {
-			System.out.println(adVeSoyad+" isimli kişisi biraz kilole");
+			System.out.println(adVeSoyad+" isimli kişisi biraz kiloludur.");
 			System.out.println("Boy kütle indeksi:"+bke);
 		}
 		else if(bke>=30 && bke<35.0) {
-			System.out.println(adVeSoyad+" isimli kişisi obezdir derecesininde kilolu");
+			System.out.println(adVeSoyad+" isimli kişisi obezite derecesininde kilolu");
 			System.out.println("Boy kütle indeksi:"+bke);
 		}
 		else {
@@ -87,7 +87,7 @@ public class Main {
 			System.out.println("Boy kütle indeksi:"+bke);
 		}
 		else if(bke>=30 && bke<35.0) {
-			System.out.println(Ad+" "+Soyad+" isimli kişisi obezdir derecesininde kilolu");
+			System.out.println(Ad+" "+Soyad+" isimli kişisi obezite derecesinde  kilolu");
 			System.out.println("Boy kütle indeksi:"+bke);
 		}
 		else {
