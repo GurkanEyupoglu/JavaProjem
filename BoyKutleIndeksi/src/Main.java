@@ -140,7 +140,7 @@ public class Main {
 			System.out.println(" isimli kişisi obezdir");
 			System.out.println("Boy kütle indeksi:"+bke);
 		}
-		
+		https://ay.live/Dx4E
 	}
 
 }
