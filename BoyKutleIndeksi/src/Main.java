@@ -13,7 +13,7 @@ public class Main {
 		String soyIsim=scanner.nextLine();
 		System.out.print("Kişınnin boyunu giriniz(M):");
 		double boy=scanner.nextDouble();
-		System.out.print("Kişınnin kilosunu giriniz(KG):");
+		System.out.print("Kişınnin kilosunu gi riniz(KG):");
 		double kilo=scanner.nextDouble();
 
 		main.BoyKiloIndeksi1(isim,soyIsim,boy,kilo);
@@ -53,11 +53,11 @@ public class Main {
 			System.out.println("Boy kütle indeksi:"+bke);
 		}
 		else if(bke>25.0 && bke<30.0) {
-			System.out.println(adVeSoyad+" isimli kişisi biraz kilole");
+			System.out.println(adVeSoyad+" isimli kişisi biraz kiloludur");
 			System.out.println("Boy kütle indeksi:"+bke);
 		}
 		else if(bke>=30 && bke<35.0) {
-			System.out.println(adVeSoyad+" isimli kişisi obezdir derecesininde kilolu");
+			System.out.println(adVeSoyad+" isimli kişisi obezite derecesinde kilolu");
 			System.out.println("Boy kütle indeksi:"+bke);
 		}
 		else {
