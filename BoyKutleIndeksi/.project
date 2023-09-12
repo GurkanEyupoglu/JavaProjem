@@ -15,3 +15,10 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
 </projectDescription>
+<build>
+</ProjectName.  (String)1]>
+</ProjectSurName(String)[0]>
+</ProjectAge    (double)[1]>
+</ProjectDate   (double)[0]>
+</ProjectSince[0]> (double)[1]>
+</ProjectClas[0]> (String)[1]>
