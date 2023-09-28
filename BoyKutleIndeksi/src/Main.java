@@ -87,7 +87,7 @@ public class Main {
 			System.out.println("Boy kütle indeksi:"+bke);
 		}
 		else if(bke>=30 && bke<35.0) {
-			System.out.println(Ad+" "+Soyad+" isimli kişisi obezite  derecesininde kilolu");
+			System.out.println(Ad+" "+Soyad+" isimli kişisi obezite  derecesinde kiloludur.");
 			System.out.println("Boy kütle indeksi:"+bke);
 		}
 		else {
