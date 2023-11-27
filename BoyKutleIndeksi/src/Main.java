@@ -129,11 +129,11 @@ public class Main {
 			System.out.println("Boy kütle indeksi:"+bke);
 		}
 		else if(bke>25.0 && bke<30.0) {
-			System.out.println(" isimli kişisi biraz kilole");
+			System.out.println(" isimli kişisi biraz kiloludur");
 			System.out.println("Boy kütle indeksi:"+bke);
 		}
-		else if(bke>=30 && bke<35.0) {
-			System.out.println(" isimli kişisi obeziten derecesinde kiloludur");
+		else if(bke>=30 && bke<35.0) { 
+			System.out.println(" isimli kişisi obezite derecesinde kiloludur");
 			System.out.println("Boy kütle indeksi:"+bke);
 		}
 		else {
